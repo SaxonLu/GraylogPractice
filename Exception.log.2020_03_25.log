@@ -1,0 +1,3 @@
+{"LogName":"Iris","Para":{"Name":"Ada","ID":234567,"Drop":true},"ParseCode":1234,"PingList":["222","#333"],"SendToAdmin":true,"Status":"AccountNotExist","level":"error","msg":"LogLevelError","time":"2020-03-25 10:41:15"}
+{"LogName":"Iris","Para":{"Name":"Ada","ID":234567,"Drop":true},"ParseCode":1234,"PingList":["222","#333"],"SendToAdmin":true,"Status":"AccountNotExist","level":"info","msg":"LogLevelThisInfoLevel 提示等級","time":"2020-03-25 10:43:21"}
+time="2020-03-25T10:43:21+08:00" level=info msg="LogLevelThisInfoLevel 提示等級" LogName=Iris Para="{Ada 234567 true}" ParseCode=1234 PingList="[222 #333]" SendToAdmin=true Status=AccountNotExist
