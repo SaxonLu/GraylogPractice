@@ -175,7 +175,7 @@ func LoggerToES() gin.HandlerFunc {
 func Email() {
 	logger := logrus.New()
 	//parameter"APPLICATION_NAME", "HOST", PORT, "FROM", "TO"
-	hook, err := logrus_mail.NewMailAuthHook("testapp", "smtp.gmail.com", 8080, "From Mail", "To Mail", "smtp_account", "smtp_password")
+	hook, err := logrus_mail.NewMailAuthHook("testapp", "smtp.gmail.com", 8080, "From MailAdress", "To MailAdress", "smtp_account", "smtp_password")
 	if err == nil {
 		logger.Hooks.Add(hook)
 	}
