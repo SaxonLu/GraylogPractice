@@ -17,7 +17,7 @@ import (
 )
 
 var (
-	logFilePath  = "./"
+	logFilePath  = "./logdoc"
 	logFileName  string
 	createFile   bool   = true
 	graylogHost  string = "127.0.0.1:12201"

@@ -1,0 +1,2 @@
+{"client_ip":"::1","latency_time":184357,"level":"info","msg":"LogLevelThisInfoLevel 提示等級","req_method":"GET","req_uri":"/zz","status_code":200,"time":"2020-06-16 10:49:21"}
+{"client_ip":"::1","latency_time":97567,"level":"info","msg":"LogLevelThisInfoLevel 提示等級","req_method":"GET","req_uri":"/TES","status_code":200,"time":"2020-06-16 10:49:31"}
