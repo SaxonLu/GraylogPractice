@@ -43,3 +43,15 @@ Notice : 選單可拖拉
 實作用則是設定 GELF UDP port:12201
 
 go run 專案且至對應路徑觸發其log機制即可
+
+## config 格式
+```
+set:
+  graylogHost: 127.0.0.1:12201
+  # 是否於根目錄建立log檔案
+  createFile: true
+  # 檔案保存時間
+  LogTimeLimit: 168
+  # 檔案切割時間
+  LogSliceTime: 24
+```
